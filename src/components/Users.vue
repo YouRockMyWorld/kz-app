@@ -9,7 +9,7 @@
         <el-table-column type="index"></el-table-column>
         <el-table-column label="用户名" prop="Username"></el-table-column>
         <el-table-column label="ID" prop="UserId"></el-table-column>
-        <el-table-column label="邮箱" prop="Email"></el-table-column>
+        <el-table-column label="手机号" prop="Phone"></el-table-column>
         <el-table-column label="操作" width="65px">
           <template slot-scope="scope">
             <el-tooltip effect="dark" content="查看详情" placement="top" :enterable="false">

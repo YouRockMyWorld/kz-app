@@ -26,11 +26,11 @@
         </el-col>
         <el-col :span="18">
           <div>
-            <h1>{{userDetails.Username}} (Id:{{userDetails.UserId}})</h1>
-            <h1>Email：{{userDetails.Email}}</h1>
+            <h1>用户名：{{userDetails.Username}} (Id:{{userDetails.UserId}})</h1>
+            <h1>手机号：{{userDetails.Phone}}</h1>
             <hr color="#cccccc" />
             <h2>姓名：{{userDetails.PersonName}}</h2>
-            <h2>电话：{{userDetails.Phone}}</h2>
+            <h2>Email：{{userDetails.Email}}</h2>
             <h2>公司：{{userDetails.CompanyName}}</h2>
           </div>
         </el-col>
